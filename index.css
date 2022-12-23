@@ -1,0 +1,121 @@
+* {
+  margin:0px;
+  padding:0px;
+  font-family:sans-serif;
+}
+.container {
+  background-image: linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url("https://res.cloudinary.com/dwa6fuv2x/w_2000,h_1200,c_fit/auto-mapping-folder/2020/07/Luxury-interior-design.jpg");
+  width:100%;
+  height:100vh;
+  background-position:center;
+  background-size:cover;
+}
+.nav img {
+  width:60px;
+  filter:invert(100%);
+  cursor:pointer;
+}
+.nav {
+  display:flex;
+  justify-content:space-between;
+  width:85%;
+  margin:auto;
+  align-items:center;
+}
+.nav ul li {
+  display:inline-block;
+  margin: 0px 10px;
+  list-style:none;
+}
+.nav ul li a{
+  display:none;
+  text-decoration:none;
+  color:white;
+  Text-transform:uppercase;
+  font-size:14px;
+}
+.nav2 {
+  position:absolute;
+  right:60px;
+  top:22px;
+}
+.nav2 ul {
+  list-style:none;
+  
+}
+.nav2 ul li a {
+  display:none;
+  text-decoration:none;
+  color:white;
+  Text-transform:uppercase;
+  font-size:16px;
+}
+.content {
+  display:block;
+  margin: auto;
+  width:80%;
+  margin-top:18%;
+
+}
+.content h1 {
+  font-family:viber;
+  letter-spacing:4px;
+  font-size:40px;
+  text-align:center;
+  color:white;
+  
+}
+.content p {
+  line-height:26px;
+  margin-top:18px;
+  text-align:center;
+  color:white;
+}
+.btn {
+  font-weight:bold;
+  background:#00AAFF;
+  width:20%;
+  display:block;
+  margin:auto;
+  margin-top:18px;
+padding:4px 2px;
+cursor:pointer;
+border:none;
+
+}
+#logoname {
+  cursor:pointer;
+  position:absolute;
+  top:60px;
+  margin-left:5px;
+  color:white;
+  font-size:10px;
+}
+.btn:hover{
+  color:white;
+  border-radius:10px;
+  
+}
+.nav ul li a:hover{
+  text-shadow: 0 0 10px #fff, 0 0 20px #00AAFF, 0 0 50px #00AAFF, 0 0 100px #00AAFF;
+  }
+
+.nav2 ul li a:hover{
+  text-shadow: 0 0 10px #fff, 0 0 20px #00AAFF, 0 0 50px #00AAFF, 0 0 100px #00AAFF;
+}
+.btn:hover{
+  box-shadow: 0 0 10px #fff, 0 0 20px #00AAFF, 0 0 50px #00AAFF, 0 0 100px #00AAFF;
+}
+.nav img:hover, #logoname:hover {
+  transform: scale(1.1);
+}
+@media (min-width:0px) and (max-width:560px){
+  .nav2 ul li a{
+display:flex;
+  }
+}
+@media (min-width:560px){
+  .nav ul li a {
+display:flex;
+  }
+}
